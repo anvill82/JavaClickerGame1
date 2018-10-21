@@ -12,6 +12,8 @@ public class Application extends JFrame {
     private void initUI() {
         add(new Board());
 
+        pack();
+
         setSize(800, 600);
 
         setTitle("Application");
